@@ -1,6 +1,6 @@
 $(() => {
   const $window = $(window);
-  const $pageTop = $('#page_top_button');
+  const $pageTop = $('.page-top-button');
 
   $pageTop.hide();
   $pageTop.click(() => {

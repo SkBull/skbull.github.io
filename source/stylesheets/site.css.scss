@@ -1,37 +1,60 @@
+body {
+  margin: 0;
+}
 .header {
-  height: 100px;
+  margin: 0px;
+  height: 80px;
+  background-color: #333;
+  font-family: arial, sans-serif;
 }
 
-.HolyGrail {
+.header-top {
+  height: 1px;
+  border: none;
+  border-top: 2px #ff0000 solid;
+}
+
+.header-text {
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0px;
+}
+.header-image0 {
+    width: 50px;
+    height: 50px;
+}
+.pages {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #DCDCDC;
 }
 
-.HolyGrail-body {
+.pages-body {
   display: flex;
   flex: 1;
 }
 
-.HolyGrail-content {
+.pages-content {
   flex: 1;
   background-color:#00FFFF;
 }
 
-.HolyGrail-nav, .HolyGrail-ads {
+.pages-nav, .pages-ads {
   /* カラム幅は12em */
   flex: 0 0 15em;
   background-color:#00FA9A;
 }
 
-.HolyGrail-nav {
+.pages-nav {
   /* ナビゲーションを左に */
   order: -1;
   background-color: #FF69B4;
 }
 
-div.MainName {
+.footer {
+  background-color: 	#A9A9A9;
+}
+s.main-name {
   margin: 20px;
   background-color: #008B8B;
   height: 800px;
@@ -40,29 +63,30 @@ div.MainName {
   align-items: flex-stert;
 }
 
-.MainImage00 {
+.main-image00 {
   width: 150px;
   height: 150px;
 }
 
-.MainContent {
+.main-content {
   background-color: #AFEEEE;
 }
 
-#page_top_button {
+.page-top-button {
   text-align: center;
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   background-color: #B0C4DE;
+  opacity: 0.9;
   border-radius: 10px;
   margin: 8px;
   padding: 10px;
   cursor: pointer;
 }
 
-#page_top_button:hover {
-  background-color: #C71585;
+.page-top-button:hover{
+  background-color: #778899;
 }
