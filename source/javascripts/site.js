@@ -1,4 +1,4 @@
-//一番上に行けるボタン
+// 一番上に行けるボタン
 $(() => {
   const $window = $(window);
   const $pageTop = $('.page-top-button');
@@ -18,7 +18,7 @@ $(() => {
   });
 });
 
-//一番したに行けるボタン
+// 一番下に行けるボタン
 $(() => {
   const $window = $(window);
   const $pageBottom = $('.page-bottom-button');
@@ -38,7 +38,7 @@ $(() => {
   });
 });
 
-//左のnaviのmenuのアニメーション
+// 左のnaviのmenuのアニメーション
 $(() => {
   $('.navi-block').hover(function(){
     $(this).animate({
