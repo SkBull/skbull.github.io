@@ -42,13 +42,35 @@ body {
 .pages-nav, .pages-ads {
   /* カラム幅は12em */
   flex: 0 0 15em;
-  background-color:#00FA9A;
+  background-color:#FFFFF0;
 }
 
 .pages-nav {
   /* ナビゲーションを左に */
   order: -1;
-  background-color: #FF69B4;
+  display: inline-block;
+}
+
+.navi-block {
+  display: table;
+  background-color: #FF7F50;
+  margin: 10px;
+  padding: 10px;
+  width: 110px;
+  height: 60px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1.5px rgba(102, 68, 0,0.2);
+}
+
+.navi-image0 {
+  display: table;
+  vertical-align: middle;
+}
+
+.navi {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  color: #4A2D08;
 }
 
 .footer {
@@ -88,5 +110,24 @@ s.main-name {
 }
 
 .page-top-button:hover{
+  background-color: #778899;
+}
+
+.page-bottom-button {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #B0C4DE;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.page-bottom-button:hover{
   background-color: #778899;
 }

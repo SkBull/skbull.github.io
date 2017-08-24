@@ -1,3 +1,4 @@
+//一番上に行けるボタン
 $(() => {
   const $window = $(window);
   const $pageTop = $('.page-top-button');
@@ -15,4 +16,47 @@ $(() => {
       $pageTop.fadeOut();
     }
   });
+});
+
+//一番したに行けるボタン
+$(() => {
+  const $window = $(window);
+  const $pageBottom = $('.page-bottom-button');
+
+  $pageBottom.hide();
+  $pageBottom.click(() => {
+    $('body, html').animate({ scrollTop: 500 }, 500);
+    return false;
+  });
+
+  $window.scroll(() => {
+    if ($window.scrollTop() >= 50) {
+      $pageBottom.fadeOut();
+    } else {
+      $pageBottom.fadeIn();
+    }
+  });
+});
+
+//左のnaviのmenuのアニメーション
+$(() => {
+  $('.navi-block').hover(function(){
+    $(this).animate({
+      width: 200,
+      height: 60
+    });
+  },function(){
+    $(this).animate({
+      width: 110,
+      height: 60
+    });
+  });
+  $("navi-block").click(function(){
+        if($(this).find("a").attr("target")=="_blank"){
+            window.open($(this).find("a").attr("href"), '_blank');
+        }else{
+            window.location=$(this).find("a").attr("href");
+        }
+    return false;
+    });
 });
