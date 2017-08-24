@@ -32,23 +32,26 @@ body {
 .pages-body {
   display: flex;
   flex: 1;
+  background-image: url("../images/main_paper_L.png");
 }
 
 .pages-content {
   flex: 1;
-  background-color:#00FFFF;
+  //background-color:#00FFFF;
 }
 
 .pages-nav, .pages-ads {
   /* カラム幅は12em */
   flex: 0 0 15em;
   background-color:#FFFFF0;
+  padding: 5px;
 }
 
 .pages-nav {
   /* ナビゲーションを左に */
   order: -1;
   display: inline-block;
+
 }
 
 .navi-block {
@@ -73,12 +76,36 @@ body {
   color: #4A2D08;
 }
 
+.nav-box {
+  width: 150px;
+  height: 20px;
+  font-family: arial,sans-serif;
+  background-color: desaturate(#E74C3C,10%);
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  display:table-cell;
+  vertical-align: middle;
+}
+
+.ads-box {
+  width: 150px;
+  height: 20px;
+  font-family: arial,sans-serif;
+  background-color: desaturate(#3498DB,10%);
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  display:table-cell;
+  vertical-align: middle;
+}
+
 .footer {
   background-color: 	#A9A9A9;
 }
 s.main-name {
   margin: 20px;
-  background-color: #008B8B;
+  //background-color: #008B8B;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -90,8 +117,16 @@ s.main-name {
   height: 150px;
 }
 
+.main-image01 {
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  width: 500px;
+  height: 500px;
+  border: 1px #000000 solid;
+  border-radius: 10px;
+}
 .main-content {
-  background-color: #AFEEEE;
+  //background-color: #AFEEEE;
 }
 
 .page-top-button {

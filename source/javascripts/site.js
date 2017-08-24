@@ -25,7 +25,7 @@ $(() => {
 
   $pageBottom.hide();
   $pageBottom.click(() => {
-    $('body, html').animate({ scrollTop: 500 }, 500);
+    $('body, html').animate({ scrollTop: 1000 }, 500);
     return false;
   });
 
@@ -51,12 +51,9 @@ $(() => {
       height: 60
     });
   });
-  $("navi-block").click(function(){
-        if($(this).find("a").attr("target")=="_blank"){
-            window.open($(this).find("a").attr("href"), '_blank');
-        }else{
-            window.location=$(this).find("a").attr("href");
-        }
+
+  $('.navi-block').click(function(){
+    window.location = $(this).find("a").attr("href");
     return false;
-    });
+  });
 });
