@@ -45,3 +45,13 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+activate :relative_assets
+set :relative_links, true
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.remote = 'https://github.com/SkBull/skbull.github.io.git'
+  deploy.branch = :master
+  deploy.build_before = true
+end
