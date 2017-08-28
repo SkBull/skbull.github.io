@@ -1,27 +1,66 @@
+html {
+  font-ssize: 62.5%;
+}
 body {
   margin: 0;
 }
 .header {
   margin: 0px;
-  height: 4rem;
+  width: 100%;
+  height: 5rem;
   background-color: #333;
   font-family: arial, sans-serif;
+  border-top: 2px #ff0000 solid;
+  display: flex;
 }
 
-.header-top {
-  height: 1px;
-  border: none;
-  border-top: 2px #ff0000 solid;
+.menu {
+   left: 0;
+   top: 0;
+   margin: 10px;
+   background-color: #FFFFFF;
+   height: 50px;
+   width: 50px;
+   cursor: pointer;
+   border-radius: 5px;
+   opacity: 0.7;
 }
 
 .header-text {
   color: #ffffff;
-  vertical-align: middle;
   margin: 0px;
+  animation: OpeningSequence 5.2s linear infinite;
 }
+
+@keyframes OpeningSequence {
+	0% {
+		text-shadow: 0 0 50px #fff;
+		//letter-spacing: 80px;
+		opacity: 0.2;
+		transform: rotateY(-90deg);
+	}
+	50% {
+		text-shadow: 0 0 1px #fff;
+		//letter-spacing: 14px;
+		opacity: 0.8;
+		transform: rotateY(0deg);
+	}
+	85% {
+		text-shadow: 0 0 1px #fff;
+		//opacity: 0.8;
+		transform: rotateY(0deg) translateZ(100px);
+	}
+	100% {
+		text-shadow: 0 0 10px #fff;
+		opacity: 0;
+		transform: translateZ(130px);
+		pointer-events: none;
+	}
+}
+
 .header-image0 {
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
 }
 .pages {
   display: flex;
@@ -37,7 +76,7 @@ body {
 
 .pages-content {
   flex: 1;
-  padding: 5px;
+  padding: 10px;
   //background-color:#00FFFF;
 }
 
@@ -48,14 +87,18 @@ body {
 }
 
 .pages-nav {
-  flex: 0 0 10rem;
+ width: 10rem;
   order: -1;
-  display: inline-block;
+  &.is-active {
+     margin-left: 0;
+  }
 }
 
 .pages-ads {
-  flex: 0 0 15rem;
+  width: 15rem;
 }
+
+
 
 @media (min-width: 60.0rem) {
   .pages-ads {
@@ -64,7 +107,7 @@ body {
 }
 @media (max-width: 60.0rem) {
   .pages-ads {
-    margin-right: -15rem;
+    display: none;
   }
 }
 
@@ -72,10 +115,19 @@ body {
   .pages-nav {
     margin-left: 0;
   }
+  .menu {
+    display: none;
+  }
 }
 @media (max-width: 70.0rem) {
   .pages-nav {
-    margin-left: -15rem;
+    margin-left: -10rem;
+  }
+  /*.header-text {
+    margin-left: 5rem;
+  }*/
+  .menu {
+    display: flex;
   }
 }
 
@@ -83,12 +135,17 @@ body {
   display: table;
   background-color: #FF7F50;
   margin: 0px;
-  padding: 0px;
-  width: 110px;
-  height: 60px;
+  padding: 5%;
+  width: 89%;
+  height: 1rem;
   cursor: pointer;
-  box-shadow: 2px 2px 1.5px rgba(102, 68, 0,0.2);
-  border: 1px solid red;
+  //box-shadow: 2px 2px 1.5px rgba(102, 68, 0,0.2);
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.navi-block:hover {
+  background-color: #FF8F50;
 }
 
 .navi-image0 {
@@ -103,7 +160,7 @@ body {
 }
 
 .nav-box {
-  width: 150px;
+  width: 100%;
   height: 20px;
   font-family: arial,sans-serif;
   background-color: desaturate(#E74C3C,10%);
@@ -116,21 +173,19 @@ body {
 }
 
 .ads-box {
-  width: 15rem;
-  height: 20px;
+  height: 5rem;
   font-family: arial,sans-serif;
   background-color: desaturate(#3498DB,10%);
   color: #FFFFFF;
   padding: 10px;
-  border-radius: 10px;
-  display:table-cell;
+  border: 1px solid blue;
+//  display:table-cell;
   vertical-align: middle;
 }
 
 .fa-twitter, .tw {
   display: inline-block;
   text-align: center;
-  margin: 0 auto;
   padding: 5px;
 }
 
@@ -147,6 +202,7 @@ s.main-name {
 }
 
 .main-image00 {
+  margin: 5px;
   width: 150px;
   height: 150px;
 }
@@ -164,17 +220,15 @@ s.main-name {
 }
 
 .page-top-button {
-  text-align: center;
   position: fixed;
   bottom: 0;
   right: 0;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   background-color: #B0C4DE;
   opacity: 0.9;
   border-radius: 10px;
-  margin: 8px;
-  padding: 10px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -183,20 +237,23 @@ s.main-name {
 }
 
 .page-bottom-button {
-    text-align: center;
     position: fixed;
     top: 0;
     right: 0;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     background-color: #B0C4DE;
     opacity: 0.9;
     border-radius: 10px;
-    margin: 8px;
-    padding: 10px;
+    margin: 10px;
     cursor: pointer;
 }
 
 .page-bottom-button:hover{
   background-color: #778899;
+}
+
+.fa-arrow-down, .fa-arrow-up {
+  top: 50%;
+  left: 50%;
 }

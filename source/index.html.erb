@@ -1,9 +1,9 @@
 <div class="pages">
   <header class="header">
-    <div class="header-top">
-    </div>
-  <h1 class="header-text"><img class="header-image0" src="http://4.bp.blogspot.com/-sbCtoATOMxY/WUdZQZBH3vI/AAAAAAABFEU/Xpq97_EjYPUodIrdEjA6mso9ASmWOCOxgCLcBGAs/s800/pose_touch_hand_man.png">いらすとや速報</h1>
-
+    <div class= "menu">
+    <i class="fa fa-bars fa-fw fa-3x" aria-hidden="true"></i>
+  </div>
+    <h1 class="header-text"><img class="header-image0" src="http://4.bp.blogspot.com/-sbCtoATOMxY/WUdZQZBH3vI/AAAAAAABFEU/Xpq97_EjYPUodIrdEjA6mso9ASmWOCOxgCLcBGAs/s800/pose_touch_hand_man.png">いらすとや速報</h1>
 </header>
   <div class="pages-body">
     <main class="pages-content">
@@ -32,32 +32,37 @@
       </div>
     </main>
     <nav class="pages-nav">
-      <h2 class="nav-box">Menu</h2>
-      <hr>
-      <div class="navi-block">
-        <i class="fa fa-home fa-3x" aria-hidden="true"></i>
+      <div class="navi-block faa-parent animated-hover">
+        <i class="fa fa-home fa-2x faa-float" aria-hidden="true"></i>
         <a href="./" class= "navi">home</a>
       </div>
-      <div class="navi-block">
-        <i class="fa fa-commenting fa-3x" aria-hidden="true"></i>
+      <div class="navi-block faa-parent animated-hover">
+        <i class="fa fa-commenting fa-2x faa-shake" aria-hidden="true"></i>
         <a class="navi">about</a>
       </div>
-      <div class="navi-block">
-        <i class="fa fa-question-circle fa-3x" aria-hidden="true"></i>
+      <div class="navi-block faa-parent animated-hover">
+        <i class="fa fa-link fa-2x faa-ring" aria-hidden="true"></i>
+        <a href="http://www.irasutoya.com/" class="navi">link</a>
+      </div>
+      <div class="navi-block faa-parent animated-hover">
+        <i class="fa fa-question-circle fa-2x faa-flash" aria-hidden="true"></i>
         <a class="navi">help</a>
       </div>
     </nav>
     <aside class="pages-ads">
-      <div class= "ads-box">
-        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      <div class= "ads-box faa-parent animated-hover">
+        <i class="fa fa-twitter fa-2x faa-wrench" aria-hidden="true"></i>
         <h2 class= "tw">Twitter</h2>
       </div>
-      <hr>
       <a class="twitter-timeline" href="https://twitter.com/search?q=%E3%81%84%E3%82%89%E3%81%99%E3%81%A8%E3%82%84" data-widget-id="900164970888937472">いらすとやに関するツイート</a>
       <%= javascript_include_tag :twitter %>
     </aside>
   </div>
   <footer class="footer">footer</footer>
-  <img href="#" class="page-top-button" src="../images/arrow_up.png">
-  <img href="#" class="page-bottom-button" src="../images/arrow_down.png">
+  <div class= "page-top-button">
+    <i href="#" class="fa fa-arrow-up fa-fw fa-2x" aria-hidden="true"></i>
+  </div>
+  <div class= "page-bottom-button">
+    <i href="#" class="fa fa-arrow-down fa-fw fa-2x" aria-hidden="true"></i>
+  </div>
 </div>

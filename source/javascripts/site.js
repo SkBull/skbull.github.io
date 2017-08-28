@@ -37,7 +37,12 @@ $(() => {
     }
   });
 });
-
+$(() => {
+  $('.menu').click(() => {
+    $('.pages-nav')
+      .toggleClass('is-active');
+    });
+});
 // 左のnaviのmenuのアニメーション
 /*$(() => {
   $('.navi-block').hover(function(){
