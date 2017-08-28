@@ -1,9 +1,11 @@
 html {
   font-ssize: 62.5%;
 }
+
 body {
   margin: 0;
 }
+
 .header {
   margin: 0px;
   width: 100%;
@@ -15,15 +17,15 @@ body {
 }
 
 .menu {
-   left: 0;
-   top: 0;
-   margin: 10px;
-   background-color: #FFFFFF;
-   height: 50px;
-   width: 50px;
-   cursor: pointer;
-   border-radius: 5px;
-   opacity: 0.7;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  background-color: #FFFFFF;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  opacity: 0.7;
 }
 
 .header-text {
@@ -33,35 +35,36 @@ body {
 }
 
 @keyframes OpeningSequence {
-	0% {
-		text-shadow: 0 0 50px #fff;
-		//letter-spacing: 80px;
-		opacity: 0.2;
-		transform: rotateY(-90deg);
-	}
-	50% {
-		text-shadow: 0 0 1px #fff;
-		//letter-spacing: 14px;
-		opacity: 0.8;
-		transform: rotateY(0deg);
-	}
-	85% {
-		text-shadow: 0 0 1px #fff;
-		//opacity: 0.8;
-		transform: rotateY(0deg) translateZ(100px);
-	}
-	100% {
-		text-shadow: 0 0 10px #fff;
-		opacity: 0;
-		transform: translateZ(130px);
-		pointer-events: none;
-	}
+  0% {
+    text-shadow: 0 0 50px #fff;
+    // letter-spacing: 80px;
+    opacity: 0.2;
+    transform: rotateY(-90deg);
+  }
+  50% {
+    text-shadow: 0 0 1px #fff;
+    // letter-spacing: 14px;
+    opacity: 0.8;
+    transform: rotateY(0deg);
+  }
+  85% {
+    text-shadow: 0 0 1px #fff;
+    // opacity: 0.8;
+    transform: rotateY(0deg) translateZ(100px);
+  }
+  100% {
+    text-shadow: 0 0 10px #fff;
+    opacity: 0;
+    transform: translateZ(130px);
+    pointer-events: none;
+  }
 }
 
 .header-image0 {
-    width: 3rem;
-    height: 3rem;
+  width: 3rem;
+  height: 3rem;
 }
+
 .pages {
   display: flex;
   min-height: 100vh;
@@ -77,20 +80,22 @@ body {
 .pages-content {
   flex: 1;
   padding: 10px;
-  //background-color:#00FFFF;
+  // background-color:#00FFFF;
 }
 
-.pages-nav, .pages-ads {
+.pages-nav,
+.pages-ads {
   background-color: #FFFFF0;
   padding: 0px;
   transition: all 0.5s ease-out;
 }
 
 .pages-nav {
- width: 10rem;
+  width: 10rem;
   order: -1;
+
   &.is-active {
-     margin-left: 0;
+    margin-left: 0;
   }
 }
 
@@ -98,13 +103,12 @@ body {
   width: 15rem;
 }
 
-
-
 @media (min-width: 60.0rem) {
   .pages-ads {
-  margin-right: 0;
+    margin-right: 0;
   }
 }
+
 @media (max-width: 60.0rem) {
   .pages-ads {
     display: none;
@@ -115,17 +119,21 @@ body {
   .pages-nav {
     margin-left: 0;
   }
+
   .menu {
     display: none;
   }
 }
+
 @media (max-width: 70.0rem) {
   .pages-nav {
     margin-left: -10rem;
   }
-  /*.header-text {
-    margin-left: 5rem;
-  }*/
+
+  // .header-text {
+  //   margin-left: 5rem;
+  // }
+
   .menu {
     display: flex;
   }
@@ -139,7 +147,7 @@ body {
   width: 89%;
   height: 1rem;
   cursor: pointer;
-  //box-shadow: 2px 2px 1.5px rgba(102, 68, 0,0.2);
+  // box-shadow: 2px 2px 1.5px rgba(102, 68, 0,0.2);
   border-bottom: 1px solid red;
   border-right: 1px solid red;
 }
@@ -179,11 +187,12 @@ body {
   color: #FFFFFF;
   padding: 10px;
   border: 1px solid blue;
-//  display:table-cell;
+  // display: table-cell;
   vertical-align: middle;
 }
 
-.fa-twitter, .tw {
+.fa-twitter,
+.tw {
   display: inline-block;
   text-align: center;
   padding: 5px;
@@ -192,9 +201,10 @@ body {
 .footer {
   background-color: 	#A9A9A9;
 }
-s.main-name {
+
+.main-name {
   margin: 20px;
-  //background-color: #008B8B;
+  // background-color: #008B8B;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -215,8 +225,9 @@ s.main-name {
   border: 1px #000000 solid;
   border-radius: 10px;
 }
+
 .main-content {
-  //background-color: #AFEEEE;
+  // background-color: #AFEEEE;
 }
 
 .page-top-button {
@@ -232,28 +243,29 @@ s.main-name {
   cursor: pointer;
 }
 
-.page-top-button:hover{
+.page-top-button:hover {
   background-color: #778899;
 }
 
 .page-bottom-button {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 50px;
-    width: 50px;
-    background-color: #B0C4DE;
-    opacity: 0.9;
-    border-radius: 10px;
-    margin: 10px;
-    cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #B0C4DE;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
 }
 
-.page-bottom-button:hover{
+.page-bottom-button:hover {
   background-color: #778899;
 }
 
-.fa-arrow-down, .fa-arrow-up {
+.fa-arrow-down,
+.fa-arrow-up {
   top: 50%;
   left: 50%;
 }

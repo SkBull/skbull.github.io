@@ -16,10 +16,8 @@ $(() => {
       $pageTop.fadeOut();
     }
   });
-});
 
-// 一番下に行けるボタン
-$(() => {
+  // 一番下に行けるボタン
   const $window = $(window);
   const $pageBottom = $('.page-bottom-button');
 
@@ -36,29 +34,9 @@ $(() => {
       $pageBottom.fadeIn();
     }
   });
-});
-$(() => {
+
   $('.menu').click(() => {
     $('.pages-nav')
       .toggleClass('is-active');
     });
 });
-// 左のnaviのmenuのアニメーション
-/*$(() => {
-  $('.navi-block').hover(function(){
-    $(this).animate({
-      width: 200,
-      height: 60
-    });
-  },function(){
-    $(this).animate({
-      width: 110,
-      height: 60
-    });
-  });
-
-  $('.navi-block').click(function(){
-    window.location = $(this).find("a").attr("href");
-    return false;
-  });
-});*/
