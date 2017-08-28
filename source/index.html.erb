@@ -11,10 +11,14 @@
         <h1>加納　慎之佑</h1>
         <img class="main-image00" src="http://2.bp.blogspot.com/-2gnQE53dgwQ/VrP0KiTLSaI/AAAAAAAA3y0/wLPij8AevPg/s800/cult_family.png">
         <div class="main-content">
-          <h2>出身</h2>
-          <ul>
-            <li>宗像市</li>
+          <%data.mydata.each do |data| %>
+            <h2><%= data['title'] %></h2>
+            <ul>
+            <%data['elements'].each do |element| %>
+              <li><%= element %></li>
+            <% end %>
           </ul>
+          <% end %>
           <h2>好きなこと</h2>
           <ul>
             <li>ペーパークラフト</li>
