@@ -25,7 +25,7 @@ $(() => {
 
   $pageBottom.hide();
   $pageBottom.click(() => {
-    $('body, html').animate({ scrollTop: 1000 }, 500);
+    $('body, html').animate({ scrollTop: $(document).height() }, 500);
     return false;
   });
 
@@ -39,7 +39,7 @@ $(() => {
 });
 
 // 左のnaviのmenuのアニメーション
-$(() => {
+/*$(() => {
   $('.navi-block').hover(function(){
     $(this).animate({
       width: 200,
@@ -56,4 +56,4 @@ $(() => {
     window.location = $(this).find("a").attr("href");
     return false;
   });
-});
+});*/

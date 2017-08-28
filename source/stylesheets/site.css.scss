@@ -3,7 +3,7 @@ body {
 }
 .header {
   margin: 0px;
-  height: 80px;
+  height: 4rem;
   background-color: #333;
   font-family: arial, sans-serif;
 }
@@ -37,32 +37,58 @@ body {
 
 .pages-content {
   flex: 1;
+  padding: 5px;
   //background-color:#00FFFF;
 }
 
 .pages-nav, .pages-ads {
-  /* カラム幅は12em */
-  flex: 0 0 15em;
-  background-color:#FFFFF0;
-  padding: 5px;
+  background-color: #FFFFF0;
+  padding: 0px;
+  transition: all 0.5s ease-out;
 }
 
 .pages-nav {
-  /* ナビゲーションを左に */
+  flex: 0 0 10rem;
   order: -1;
   display: inline-block;
+}
 
+.pages-ads {
+  flex: 0 0 15rem;
+}
+
+@media (min-width: 60.0rem) {
+  .pages-ads {
+  margin-right: 0;
+  }
+}
+@media (max-width: 60.0rem) {
+  .pages-ads {
+    margin-right: -15rem;
+  }
+}
+
+@media (min-width: 70.0rem) {
+  .pages-nav {
+    margin-left: 0;
+  }
+}
+@media (max-width: 70.0rem) {
+  .pages-nav {
+    margin-left: -15rem;
+  }
 }
 
 .navi-block {
   display: table;
   background-color: #FF7F50;
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 0px;
   width: 110px;
   height: 60px;
   cursor: pointer;
   box-shadow: 2px 2px 1.5px rgba(102, 68, 0,0.2);
+  border: 1px solid red;
 }
 
 .navi-image0 {
@@ -83,13 +109,14 @@ body {
   background-color: desaturate(#E74C3C,10%);
   color: #FFFFFF;
   padding: 10px;
+  margin: 10px;
   border-radius: 10px;
   display:table-cell;
   vertical-align: middle;
 }
 
 .ads-box {
-  width: 150px;
+  width: 15rem;
   height: 20px;
   font-family: arial,sans-serif;
   background-color: desaturate(#3498DB,10%);
@@ -98,6 +125,13 @@ body {
   border-radius: 10px;
   display:table-cell;
   vertical-align: middle;
+}
+
+.fa-twitter, .tw {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .footer {
