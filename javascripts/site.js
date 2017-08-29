@@ -8,7 +8,6 @@ $(() => {
     $('body, html').animate({ scrollTop: 0 }, 500);
     return false;
   });
-
   $window.scroll(() => {
     if ($window.scrollTop() >= 20) {
       $pageTop.fadeIn();
@@ -16,7 +15,9 @@ $(() => {
       $pageTop.fadeOut();
     }
   });
+});
 
+$(() => {
   // 一番下に行けるボタン
   const $window = $(window);
   const $pageBottom = $('.page-bottom-button');
@@ -26,7 +27,6 @@ $(() => {
     $('body, html').animate({ scrollTop: $(document).height() }, 500);
     return false;
   });
-
   $window.scroll(() => {
     if ($window.scrollTop() >= 50) {
       $pageBottom.fadeOut();
@@ -34,9 +34,11 @@ $(() => {
       $pageBottom.fadeIn();
     }
   });
+});
 
+$(() => {
   $('.menu').click(() => {
     $('.pages-nav')
       .toggleClass('is-active');
     });
-});
+  });
