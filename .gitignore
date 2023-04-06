@@ -1,0 +1,5 @@
+#File
+.hugo_build.lock
+
+#Directory
+public
