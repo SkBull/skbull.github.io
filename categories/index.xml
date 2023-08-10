@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on TestTitle</title>
+    <title>Categories on すきぶる - SkBull Blog</title>
     <link>https://kyanou.com/categories/</link>
-    <description>Recent content in Categories on TestTitle</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://kyanou.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Categories on すきぶる - SkBull Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language></language>
+    <copyright>&amp;copy; 2023 - 2023 My Name</copyright>
+    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game</title>
+      <link>https://kyanou.com/categories/game/</link>
+      <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/categories/game/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://kyanou.com/categories/tech/</link>
+      <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/categories/tech/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

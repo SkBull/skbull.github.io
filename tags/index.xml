@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on TestTitle</title>
+    <title>Tags on すきぶる - SkBull Blog</title>
     <link>https://kyanou.com/tags/</link>
-    <description>Recent content in Tags on TestTitle</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://kyanou.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Tags on すきぶる - SkBull Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language></language>
+    <copyright>&amp;copy; 2023 - 2023 My Name</copyright>
+    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Registry</title>
+      <link>https://kyanou.com/tags/registry/</link>
+      <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/registry/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Windows10</title>
+      <link>https://kyanou.com/tags/windows10/</link>
+      <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/windows10/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Windows11</title>
+      <link>https://kyanou.com/tags/windows11/</link>
+      <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/windows11/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>others</title>
+      <link>https://kyanou.com/tags/others/</link>
+      <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/others/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>https://kyanou.com/tags/post/</link>
+      <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/post/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://kyanou.com/tags/tech/</link>
+      <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/tech/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
