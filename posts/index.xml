@@ -2,37 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on すきぶる - SkBull Blog</title>
-    <link>https://kyanou.com/posts/</link>
+    <link>https://skbull.page/posts/</link>
     <description>Recent content in Posts on すきぶる - SkBull Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language></language>
+    <language>ja</language>
     <copyright>&amp;copy; 2023 - 2023 SkBull</copyright>
-    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://skbull.page/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>win10、win11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title>
-      <link>https://kyanou.com/posts/win10_iv32_iv50_pcgame/</link>
+      <link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link>
       <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
       
-      <guid>https://kyanou.com/posts/win10_iv32_iv50_pcgame/</guid>
-      <description>昔、HatenaBlogで投稿した記事を更新したものです。
- win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法   初めに #  倫理メディア版の吸血殲鬼ヴェドゴニア(ver1.2)をフルインストールし、プレイ中ムービーシーンで音だけ流れて 圧縮解除プログラム &#39;vids:IV50&#39;が見つからないため、ビデオを利用できません。 と出ました。(win10ならvids:IV32)
-    解決策: レジストリーのインストール #  このサイトを元に解決しました。 WindowsでIV32コーデックを使って動画を見る方法
-レジストリの登録先を変更する必要があるそうです。テキストファイルを作成し、書き込みます。
-IV50.reg
-Windows Registry Editor Version 5.00 ;IV50 for 64bit Windows (IV50_x64.reg) [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Drivers32] &amp;#34;vidc.iv50&amp;#34;=&amp;#34;ir50_32.dll&amp;#34; こんな感じで作成します。   ファイル名をIV50.regに変更してダブルクリックで実行します。
-   警告がでますがはいをクリック。   Windows11ではIV50.regだけでいいようですが、Windows10では追加でIV32.regも作成して実行してください。書き込む内容は以下です。
-Windows Registry Editor Version 5.00 ;IV32 for 64bit Windows (IV32_x64.reg) [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Drivers32] &amp;#34;vidc.iv32&amp;#34;=&amp;#34;ir32_32.dll&amp;#34;    無事にムービーが再生されました。
-古いゲームでよくある現象のようですね。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://kyanou.com/posts/win10_iv32_iv50_pcgame/featured.jpg" />
+      <guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid>
+      <description>昔、HatenaBlogで投稿した記事を更新したものです。 w</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.jpg" />
     </item>
     
     <item>
       <title>最初の投稿</title>
-      <link>https://kyanou.com/posts/init/</link>
+      <link>https://skbull.page/posts/init/</link>
       <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
       
-      <guid>https://kyanou.com/posts/init/</guid>
-      <description> タイトル #   章 #   節 #     Warning! This action is destructive!     This is an error! https://blowfish.page/docs/shortcodes/  </description>
+      <guid>https://skbull.page/posts/init/</guid>
+      <description>タイトル # 章 # 節 # Warning! This action is destructive! This is an error! https://blowfish.page/docs/shortcodes/</description>
       
     </item>
     

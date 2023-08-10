@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on すきぶる - SkBull Blog</title>
-    <link>https://kyanou.com/categories/</link>
+    <link>https://skbull.page/categories/</link>
     <description>Recent content in Categories on すきぶる - SkBull Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language></language>
+    <language>ja</language>
     <copyright>&amp;copy; 2023 - 2023 SkBull</copyright>
-    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://skbull.page/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game</title>
-      <link>https://kyanou.com/categories/game/</link>
+      <link>https://skbull.page/categories/game/</link>
       <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
       
-      <guid>https://kyanou.com/categories/game/</guid>
+      <guid>https://skbull.page/categories/game/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://kyanou.com/categories/tech/</link>
+      <link>https://skbull.page/categories/tech/</link>
       <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
       
-      <guid>https://kyanou.com/categories/tech/</guid>
+      <guid>https://skbull.page/categories/tech/</guid>
       <description></description>
       
     </item>
