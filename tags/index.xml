@@ -6,7 +6,7 @@
     <description>Recent content in Tags on すきぶる - SkBull Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language></language>
-    <copyright>&amp;copy; 2023 - 2023 My Name</copyright>
+    <copyright>&amp;copy; 2023 - 2023 SkBull</copyright>
     <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Registry</title>
@@ -39,31 +39,21 @@
     </item>
     
     <item>
-      <title>others</title>
-      <link>https://kyanou.com/tags/others/</link>
-      <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
-      
-      <guid>https://kyanou.com/tags/others/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>post</title>
-      <link>https://kyanou.com/tags/post/</link>
-      <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
-      
-      <guid>https://kyanou.com/tags/post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>tech</title>
+      <title>Tech</title>
       <link>https://kyanou.com/tags/tech/</link>
       <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
       
       <guid>https://kyanou.com/tags/tech/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://kyanou.com/tags/test/</link>
+      <pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate>
+      
+      <guid>https://kyanou.com/tags/test/</guid>
       <description></description>
       
     </item>

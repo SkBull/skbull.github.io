@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>post on すきぶる - SkBull Blog</title>
-    <link>https://kyanou.com/tags/post/</link>
-    <description>Recent content in post on すきぶる - SkBull Blog</description>
+    <title>Test on すきぶる - SkBull Blog</title>
+    <link>https://kyanou.com/tags/test/</link>
+    <description>Recent content in Test on すきぶる - SkBull Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language></language>
-    <copyright>&amp;copy; 2023 - 2023 My Name</copyright>
-    <lastBuildDate>Wed, 09 Aug 2023 11:14:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2023 - 2023 SkBull</copyright>
+    <lastBuildDate>Wed, 09 Aug 2023 11:14:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最初の投稿</title>
       <link>https://kyanou.com/posts/init/</link>

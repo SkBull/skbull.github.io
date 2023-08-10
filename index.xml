@@ -6,8 +6,18 @@
     <description>Recent content on すきぶる - SkBull Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language></language>
-    <copyright>&amp;copy; 2023 - 2023 My Name</copyright>
+    <copyright>&amp;copy; 2023 - 2023 SkBull</copyright>
     <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://kyanou.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://kyanou.com/about/</link>
+      <pubDate>Thu, 10 Aug 2023 11:18:55 +0000</pubDate>
+      
+      <guid>https://kyanou.com/about/</guid>
+      <description>document.addEventListener(&#34;DOMContentLoaded&#34;, function () { new TypeIt(&#34;#typeit-1691671984701539746&#34;, { strings: [&#34;&#34;,&#34;作成途中..................&#34;,&#34;&#34;], speed: 500 , lifeLike: true , startDelay: 0 , breakLines: false , waitUntilVisible: true , loop: true }).go(); });  好きなゲーム： ロボ🤖、パズル🧩、ストラテジー🏗️</description>
+      
+    </item>
+    
     <item>
       <title>win10、win11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title>
       <link>https://kyanou.com/posts/win10_iv32_iv50_pcgame/</link>
