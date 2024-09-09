@@ -1,22 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Windows11 on すきぶる - SkBull Blog</title>
-    <link>https://skbull.page/tags/windows11/</link>
-    <description>Recent content in Windows11 on すきぶる - SkBull Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <copyright>&amp;copy; 2023 - 2023 SkBull</copyright>
-    <lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://skbull.page/tags/windows11/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>win10、win11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title>
-      <link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link>
-      <pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate>
-      
-      <guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid>
-      <description>昔、HatenaBlogで投稿した記事を更新したものです。 w</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.jpg" />
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows11 on すきぶる - SkBull Blog</title><link>https://skbull.page/tags/windows11/</link><description>Recent content in Windows11 on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2024 SkBull</copyright><lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://skbull.page/tags/windows11/index.xml" rel="self" type="application/rss+xml"/><item><title>win10、win11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;p>昔、HatenaBlogで投稿した記事を更新したものです。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://skbull.hatenablog.jp/entry/2020/11/12/010709" target="_blank">win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 class="relative group">初めに
+&lt;div id="%E5%88%9D%E3%82%81%E3%81%AB" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E5%88%9D%E3%82%81%E3%81%AB" aria-label="アンカー">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>倫理メディア版の吸血殲鬼ヴェドゴニア(ver1.2)をフルインストールし、プレイ中ムービーシーンで音だけ流れて
+&lt;code>圧縮解除プログラム 'vids:IV50'が見つからないため、ビデオを利用できません。&lt;/code>
+と出ました。(win10ならvids:IV32)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.jpg"/></item></channel></rss>
