@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on すきぶる - SkBull Blog</title><link>https://skbull.page/tags/cloudflare/</link><description>Recent content in Cloudflare on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2024 SkBull</copyright><lastBuildDate>Mon, 09 Sep 2024 17:11:29 +0000</lastBuildDate><atom:link href="https://skbull.page/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>ずぼらな人のためのSquarespace（旧GoogleDomain）からCloudFlareへのDomain移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;h2 class="relative group">はじめに
+&lt;div id="%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" aria-label="アンカー">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>NN月からGoogleDomainが終了し、ドメイン情報がSquarespaceに移行しました。
+このサイトで管理してもよいのですが、勉強も兼ねてCloudflareに移管します。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/change_domain/featured.jpg"/></item></channel></rss>
