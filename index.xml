@@ -7,7 +7,7 @@ style="text-decoration-line: none !important;" href="#%E5%88%9D%E3%82%81%E3%81%A
 &lt;/span>
 &lt;/h2>
 &lt;p>自宅でローカルネットワーク用のサーバーを複数運用しているのですが「自分で建てたあのサービスってIPアドレスなんだっけ？」となることが多々あります。（&lt;del>ウェブブラウザのブックマーク機能使えよ&lt;/del>）&lt;br>
-元々&lt;code>.local&lt;/code>を使いmDNSで名前解決していたのですが、各々のサーバーに設定しなければならずApple製品がこの&lt;code>.local&lt;/code>をつかうことがあるらしく気になっていました。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/pihole_dns_only/featured.webp"/></item><item><title>ずぼらな人のためのSquarespace(旧GoogleDomain)からCloudFlareへのDomain移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;h2 class="relative group">はじめに
+元々&lt;code>.local&lt;/code>を使いmDNSで名前解決していたのですが、各々のサーバーに設定しなければならずApple製品がこの&lt;code>.local&lt;/code>をつかうことがあるらしく気になっていました。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/pihole_dns_only/featured.webp"/></item><item><title>ずぼらな人のための Squarespace（旧GoogleDomain）から CloudFlare へのドメイン移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;h2 class="relative group">はじめに
 &lt;div id="%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
