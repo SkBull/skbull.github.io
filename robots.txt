@@ -1,3 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /about/
 Sitemap: https://skbull.page/sitemap.xml

@@ -1,22 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>すきぶる</title><link>https://skbull.page/</link><description>Recent content on すきぶる</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2024 SkBull</copyright><atom:link href="https://skbull.page/index.xml" rel="self" type="application/rss+xml"/><item><title>ローカルネットワークの名前解決のためだけに使う Pi-hole on Docker</title><link>https://skbull.page/posts/pihole_dns_only/</link><pubDate>Sun, 01 Dec 2024 17:09:20 +0000</pubDate><guid>https://skbull.page/posts/pihole_dns_only/</guid><description>&lt;h2 class="relative group">初めに
-&lt;div id="%E5%88%9D%E3%82%81%E3%81%AB" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E5%88%9D%E3%82%81%E3%81%AB" aria-label="アンカー">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>自宅でローカルネットワーク用のサーバーを複数運用しているのですが「自分で建てたあのサービスってIPアドレスなんだっけ？」となることが多々あります。（&lt;del>ウェブブラウザのブックマーク機能使えよ&lt;/del>）&lt;br>
-元々&lt;code>.local&lt;/code>を使いmDNSで名前解決していたのですが、各々のサーバーに設定しなければならずApple製品がこの&lt;code>.local&lt;/code>をつかうことがあるらしく気になっていました。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/pihole_dns_only/featured.webp"/></item><item><title>ずぼらな人のための Squarespace（旧GoogleDomain）から CloudFlare へのドメイン移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;h2 class="relative group">はじめに
-&lt;div id="%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" aria-label="アンカー">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>NN月からGoogleDomainが終了し、ドメイン情報がSquarespaceに移行しました。
-このサイトで管理してもよいのですが、勉強も兼ねてCloudflareに移管します。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/change_domain/featured.webp"/></item><item><title>About</title><link>https://skbull.page/about/</link><pubDate>Thu, 10 Aug 2023 11:18:55 +0000</pubDate><guid>https://skbull.page/about/</guid><description>&lt;div id="typeit-2bc053111729a74bce2ff033e7cdfe90">&lt;/div>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>すきぶる</title><link>https://skbull.page/</link><description>Recent content on すきぶる</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2024 SkBull</copyright><atom:link href="https://skbull.page/index.xml" rel="self" type="application/rss+xml"/><item><title>ローカルネットワークの名前解決のためだけに使う Pi-hole on Docker</title><link>https://skbull.page/posts/pihole_dns_only/</link><pubDate>Sun, 01 Dec 2024 17:09:20 +0000</pubDate><guid>https://skbull.page/posts/pihole_dns_only/</guid><description>&lt;p>自宅でローカルネットワーク用のサーバーを複数運用しているのですが「自分で建てたあのサービスってIPアドレスなんだっけ？」となることが多々あります。（&lt;del>ウェブブラウザのブックマーク機能使えよ&lt;/del>）&lt;br>
+元々&lt;code>.local&lt;/code>を使いmDNSで名前解決していたのですが、各々のサーバーに設定しなければならずApple製品がこの&lt;code>.local&lt;/code>をつかうことがあるらしく気になっていました。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/pihole_dns_only/featured.webp"/></item><item><title>ずぼらな人のための Squarespace（旧Google Domains）から CloudFlare へのドメイン移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;p>2024年7月に&lt;code>Google Domains&lt;/code>が終了し、ドメイン情報が&lt;code>Squarespace&lt;/code>に移行しました。&lt;code>Squarespace&lt;/code>でドメイン情報を管理してもいいですが、勉強も兼ねて&lt;code>Cloudflare&lt;/code>にドメインを移管します。&lt;br>
+&lt;code>Cloudflare&lt;/code>に移管できるドメインかは&lt;a href="https://www.cloudflare.com/tld-policies/" target="_blank">ここ&lt;/a>で確認してください。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/change_domain/featured.webp"/></item><item><title>About</title><link>https://skbull.page/about/</link><pubDate>Thu, 10 Aug 2023 11:18:55 +0000</pubDate><guid>https://skbull.page/about/</guid><description>&lt;div id="typeit-2bc053111729a74bce2ff033e7cdfe90">&lt;/div>
 &lt;script>
 document.addEventListener("DOMContentLoaded", function () {
 new TypeIt("#typeit-2bc053111729a74bce2ff033e7cdfe90", {
@@ -30,7 +14,8 @@ loop: true
 }).go();
 });
 &lt;/script>
-&lt;p>好きなゲーム： ロボ🤖、パズル🧩、ストラテジー🏗️&lt;/p></description></item><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;div
+&lt;p>好きなゲーム： ロボ🤖、パズル🧩、ストラテジー🏗️&lt;/p></description></item><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br>
+&lt;div
 class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
 >
 &lt;span
@@ -44,7 +29,7 @@ class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
 &lt;span
 class="dark:text-neutral-300"
 >昔、HatenaBlogで投稿した記事を更新したものです。&lt;br>
-&lt;a href="https://skbull.hatenablog.jp/entry/2020/11/12/010709" target="_blank">win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a>&lt;/span>
+&lt;a href="https://skbull.hatenablog.jp/entry/2020/11/12/010709/" target="_blank">win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a>&lt;/span>
 &lt;/div>
 &lt;p>倫理メディア版の吸血殲鬼ヴェドゴニア（ver1.2）を&lt;code>フルインストール&lt;/code>でインストールしプレイしたのですが、ムービーシーンで音だけ流れて
 &lt;code>圧縮解除プログラム 'vids:IV50'が見つからないため、ビデオを利用できません。&lt;/code>
