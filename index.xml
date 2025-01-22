@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>すきぶる - SkBull Blog on すきぶる</title><link>https://skbull.page/</link><description>Recent content in すきぶる - SkBull Blog on すきぶる</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2025 SkBull</copyright><atom:link href="https://skbull.page/index.xml" rel="self" type="application/rss+xml"/><item><title>Komgaのインストール：NASのマウント方法とDockerをつかった構築</title><link>https://skbull.page/posts/komga-install/</link><pubDate>Mon, 06 Jan 2025 15:07:28 +0000</pubDate><guid>https://skbull.page/posts/komga-install/</guid><description>&lt;p>NAS内の漫画データをUbuntuにマウントし、&lt;code>Docker&lt;/code>をつかって漫画閲覧用メディアサーバー&lt;code>Komga&lt;/code>をインストールします。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>すきぶる - SkBull Blog</title><link>https://skbull.page/</link><description>Recent content on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2025 SkBull</copyright><atom:link href="https://skbull.page/index.xml" rel="self" type="application/rss+xml"/><item><title>Komgaの使い方とMihonアプリでの閲覧</title><link>https://skbull.page/posts/komga-using/</link><pubDate>Fri, 17 Jan 2025 09:08:14 +0000</pubDate><guid>https://skbull.page/posts/komga-using/</guid><description>&lt;p>KomgaのセットアップとAndroid定番リーダーアプリMihon（前Tachiyomi）での閲覧方法の説明をします。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/komga-using/featured.webp"/></item><item><title>Komgaのインストール：NASのマウント方法とDockerをつかった構築</title><link>https://skbull.page/posts/komga-install/</link><pubDate>Mon, 06 Jan 2025 15:07:28 +0000</pubDate><guid>https://skbull.page/posts/komga-install/</guid><description>&lt;p>NAS内の漫画データをUbuntuにマウントし、&lt;code>Docker&lt;/code>をつかって漫画閲覧用メディアサーバー&lt;code>Komga&lt;/code>をインストールします。
 立ち上げたKomgaサーバーのつかいかた、使用感やAndroidアプリの&lt;code>Mihon&lt;/code>をつかった閲覧については後に記事にします。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/komga-install/featured.webp"/></item><item><title>ローカルネットワークの名前解決のためだけに使う Pi-hole on Docker</title><link>https://skbull.page/posts/pihole_dns_only/</link><pubDate>Sun, 01 Dec 2024 17:09:20 +0000</pubDate><guid>https://skbull.page/posts/pihole_dns_only/</guid><description>&lt;p>自宅でローカルネットワーク用のサーバーを複数運用しているのですが「自分で建てたあのサービスってIPアドレスなんだっけ？」となることが多々あります。（&lt;del>ウェブブラウザのブックマーク機能使えよ&lt;/del>）&lt;br>
 元々&lt;code>.local&lt;/code>を使いmDNSで名前解決していたのですが、各々のサーバーに設定しなければならずApple製品がこの&lt;code>.local&lt;/code>をつかうことがあるらしく気になっていました。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/pihole_dns_only/featured.webp"/></item><item><title>ずぼらな人のための Squarespace（旧Google Domains）から CloudFlare へのドメイン移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;p>2024年7月に&lt;code>Google Domains&lt;/code>が終了し、ドメイン情報が&lt;code>Squarespace&lt;/code>に移行しました。&lt;code>Squarespace&lt;/code>でドメイン情報を管理してもいいですが、勉強も兼ねて&lt;code>Cloudflare&lt;/code>にドメインを移管します。&lt;br>
 &lt;code>Cloudflare&lt;/code>に移管できるドメインかは&lt;a href="https://www.cloudflare.com/tld-policies/" target="_blank">ここ&lt;/a>で確認してください。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/change_domain/featured.webp"/></item><item><title>About</title><link>https://skbull.page/about/</link><pubDate>Thu, 10 Aug 2023 11:18:55 +0000</pubDate><guid>https://skbull.page/about/</guid><description>&lt;div id="typeit-2bc053111729a74bce2ff033e7cdfe90">&lt;/div>
@@ -15,7 +15,54 @@ loop: true
 }).go();
 });
 &lt;/script>
-&lt;p>好きなゲーム： ロボ🤖、パズル🧩、ストラテジー🏗️&lt;/p></description></item><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br>
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+&lt;path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>&lt;strong>注目&lt;/strong> 注目してね&lt;/span>
+&lt;/div>
+&lt;div
+class="flex px-4 py-3 rounded-md"
+style="background-color: #F2E700"
+>
+&lt;span
+class="ltr:pr-3 rtl:pl-3 flex items-center"
+style="color: #000000"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+style="color: #000000"
+>&lt;strong style="color: #000000;">注意&lt;/strong> 注意してね&lt;/span>
+&lt;/div>
+&lt;div
+class="flex px-4 py-3 rounded-md"
+style="background-color: #FF4B00"
+>
+&lt;span
+class="ltr:pr-3 rtl:pl-3 flex items-center"
+style="color: #FFFFFF"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+&lt;path fill="currentColor" d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+style="color: #FFFFFF"
+>&lt;strong>警告&lt;/strong> 気を付けてね&lt;/span>
+&lt;/div></description></item><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br>
 &lt;div
 class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
 >
@@ -34,50 +81,4 @@ class="dark:text-neutral-300"
 &lt;/div>
 &lt;p>倫理メディア版の吸血殲鬼ヴェドゴニア（ver1.2）を&lt;code>フルインストール&lt;/code>でインストールしプレイしたのですが、ムービーシーンで音だけ流れて
 &lt;code>圧縮解除プログラム 'vids:IV50'が見つからないため、ビデオを利用できません。&lt;/code>
-と表示されました。(win10ならvids:IV32)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.webp"/></item><item><title>最初の投稿</title><link>https://skbull.page/posts/init/</link><pubDate>Wed, 09 Aug 2023 11:14:20 +0000</pubDate><guid>https://skbull.page/posts/init/</guid><description>&lt;h2 class="relative group">章
-&lt;div id="%E7%AB%A0" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E7%AB%A0" aria-label="アンカー">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;h3 class="relative group">節
-&lt;div id="%E7%AF%80" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E7%AF%80" aria-label="アンカー">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->&lt;strong>Warning!&lt;/strong> This action is destructive!&lt;/span>
-&lt;/div>
-&lt;div
-class="flex px-4 py-3 rounded-md"
-style="background-color: #e63946"
->
-&lt;span
-class="ltr:pr-3 rtl:pl-3 flex items-center"
-style="color: #1d3557"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-&lt;path fill="currentColor" d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-style="color: #f1faee"
->This is an error! &lt;a href="https://blowfish.page/docs/shortcodes/" target="_blank">https://blowfish.page/docs/shortcodes/&lt;/a>&lt;/span>
-&lt;/div></description></item></channel></rss>
+と表示されました。(win10ならvids:IV32)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.webp"/></item></channel></rss>
