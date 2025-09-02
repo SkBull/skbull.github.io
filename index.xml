@@ -1,36 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>すきぶる - SkBull Blog</title><link>https://skbull.page/</link><description>Recent content on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2025 SkBull</copyright><atom:link href="https://skbull.page/index.xml" rel="self" type="application/rss+xml"/><item><title>Homepageで始める、自宅サーバーのダッシュボード管理 【今すぐ改名しろ！】</title><link>https://skbull.page/posts/homepage-using/</link><pubDate>Sun, 11 May 2025 04:56:18 +0000</pubDate><guid>https://skbull.page/posts/homepage-using/</guid><description>&lt;p>&lt;strong>Homepage&lt;/strong> (&lt;a href="https://gethomepage.dev/" target="_blank">https://gethomepage.dev/&lt;/a>)&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>すきぶる - SkBull Blog</title><link>https://skbull.page/</link><description>Recent content on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2025 SkBull</copyright><atom:link href="https://skbull.page/index.xml" rel="self" type="application/rss+xml"/><item><title>Homepageで始める、自宅サーバーのダッシュボード管理 【今すぐ改名しろ！】</title><link>https://skbull.page/posts/homepage-using/</link><pubDate>Sun, 11 May 2025 04:56:18 +0000</pubDate><guid>https://skbull.page/posts/homepage-using/</guid><description>&lt;p>&lt;strong>Homepage&lt;/strong> (&lt;a
+href="https://gethomepage.dev/"
+target="_blank"
+>https://gethomepage.dev/&lt;/a>)&lt;/p>
 &lt;p>自宅でサーバー、コンテナーを複数立てていると管理が大変ですよね？&lt;br>
 そんなときにオススメのアプリケーションダッシュボード「Homepage」のインストール方法と設定例を説明します。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/homepage-using/featured.webp"/></item><item><title>Ubuntuインストール時にGitHub経由でSSHキーを登録する方法</title><link>https://skbull.page/posts/ubuntu-server-ssh-key-github/</link><pubDate>Wed, 05 Feb 2025 08:27:46 +0000</pubDate><guid>https://skbull.page/posts/ubuntu-server-ssh-key-github/</guid><description>&lt;p>久しぶりに型落ちのPCにUbuntu Serverをインストールし直したのですが、SSH接続設定を楽にする便利な機能があったので紹介します。&lt;br>
 GitHubに登録したSSH公開鍵をインストールするUbuntu ServerのSSHキーに設定する方法です。
-&lt;span class="flex" style="cursor: pointer;">
-&lt;span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+&lt;span class="flex cursor-pointer">
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
 Ubuntu Server 24.04.1 LTS
 &lt;/span>
 &lt;/span>
 &lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/ubuntu-server-ssh-key-github/featured.webp"/></item><item><title>Komgaの使い方とMihonアプリでの閲覧</title><link>https://skbull.page/posts/komga-using/</link><pubDate>Fri, 17 Jan 2025 09:08:14 +0000</pubDate><guid>https://skbull.page/posts/komga-using/</guid><description>&lt;p>KomgaのセットアップとAndroid定番リーダーアプリMihon（前Tachiyomi）での閲覧方法の説明をします。&lt;br>
-&lt;a href="https://skbull.page/posts/komga-install/">前回記事パート 1&lt;/a>からの続きです。この記事の操作の続きは&lt;a href="#setup">Komgaのセットアップ&lt;/a>から説明します。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/komga-using/featured.webp"/></item><item><title>Komgaのインストール：NASのマウント方法とDockerをつかった構築</title><link>https://skbull.page/posts/komga-install/</link><pubDate>Mon, 06 Jan 2025 15:07:28 +0000</pubDate><guid>https://skbull.page/posts/komga-install/</guid><description>&lt;p>NAS内の漫画データをUbuntuにマウントし、&lt;code>Docker&lt;/code>をつかって漫画閲覧用メディアサーバー&lt;code>Komga&lt;/code>をインストールします。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/komga-install/featured.webp"/></item><item><title>ローカルネットワークの名前解決のためだけに使う Pi-hole on Docker</title><link>https://skbull.page/posts/pihole_dns_only/</link><pubDate>Sun, 01 Dec 2024 17:09:20 +0000</pubDate><guid>https://skbull.page/posts/pihole_dns_only/</guid><description>&lt;p>自宅でローカルネットワーク用のサーバーを複数運用しているのですが「自分で建てたあのサービスってIPアドレスなんだっけ？」となることが多々あります。（&lt;del>ウェブブラウザのブックマーク機能使えよ&lt;/del>）&lt;br>
+&lt;a
+href="https://skbull.page/posts/komga-install/">前回記事パート 1&lt;/a>からの続きです。この記事の操作の続きは&lt;a
+href="#setup">Komgaのセットアップ&lt;/a>から説明します。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/komga-using/featured.webp"/></item><item><title>Komgaのインストール：NASのマウント方法とDockerをつかった構築</title><link>https://skbull.page/posts/komga-install/</link><pubDate>Mon, 06 Jan 2025 15:07:28 +0000</pubDate><guid>https://skbull.page/posts/komga-install/</guid><description>&lt;p>NAS内の漫画データをUbuntuにマウントし、&lt;code>Docker&lt;/code>をつかって漫画閲覧用メディアサーバー&lt;code>Komga&lt;/code>をインストールします。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/komga-install/featured.webp"/></item><item><title>ローカルネットワークの名前解決のためだけに使う Pi-hole on Docker</title><link>https://skbull.page/posts/pihole_dns_only/</link><pubDate>Sun, 01 Dec 2024 17:09:20 +0000</pubDate><guid>https://skbull.page/posts/pihole_dns_only/</guid><description>&lt;p>自宅でローカルネットワーク用のサーバーを複数運用しているのですが「自分で建てたあのサービスってIPアドレスなんだっけ？」となることが多々あります。（&lt;del>ウェブブラウザのブックマーク機能使えよ&lt;/del>）&lt;br>
 元々&lt;code>.local&lt;/code>を使いmDNSで名前解決していたのですが、各々のサーバーに設定しなければならずApple製品がこの&lt;code>.local&lt;/code>をつかうことがあるらしく気になっていました。&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/pihole_dns_only/featured.webp"/></item><item><title>ずぼらな人のための Squarespace（旧Google Domains）から CloudFlare へのドメイン移管</title><link>https://skbull.page/posts/change_domain/</link><pubDate>Mon, 09 Sep 2024 17:11:29 +0000</pubDate><guid>https://skbull.page/posts/change_domain/</guid><description>&lt;p>2024年7月に&lt;code>Google Domains&lt;/code>が終了し、ドメイン情報が&lt;code>Squarespace&lt;/code>に移行しました。&lt;code>Squarespace&lt;/code>でドメイン情報を管理してもいいですが、勉強も兼ねて&lt;code>Cloudflare&lt;/code>にドメインを移管します。&lt;br>
-&lt;code>Cloudflare&lt;/code>に移管できるドメインかは&lt;a href="https://www.cloudflare.com/tld-policies/" target="_blank">ここ&lt;/a>で確認してください。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/change_domain/featured.webp"/></item><item><title>About</title><link>https://skbull.page/about/</link><pubDate>Thu, 10 Aug 2023 11:18:55 +0000</pubDate><guid>https://skbull.page/about/</guid><description>&lt;h2 class="relative group">マイルストーン
-&lt;div id="%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3" class="anchor">&lt;/div>
+&lt;code>Cloudflare&lt;/code>に移管できるドメインかは&lt;a
+href="https://www.cloudflare.com/tld-policies/"
+target="_blank"
+>ここ&lt;/a>で確認してください。&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/change_domain/featured.webp"/></item><item><title>About</title><link>https://skbull.page/about/</link><pubDate>Thu, 10 Aug 2023 11:18:55 +0000</pubDate><guid>https://skbull.page/about/</guid><description>&lt;h2 class="relative group">マイルストーン
+&lt;div id="マイルストーン" class="anchor">&lt;/div>
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3" aria-label="アンカー">#&lt;/a>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e3%83%9e%e3%82%a4%e3%83%ab%e3%82%b9%e3%83%88%e3%83%bc%e3%83%b3" aria-label="アンカー">#&lt;/a>
 &lt;/span>
 &lt;/h2>
 &lt;ol class="border-l-2 border-primary-500 dark:border-primary-300 list-none">
 &lt;li>
 &lt;div class="flex flex-start">
-&lt;div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
-&lt;/span>
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+&lt;span class="relative block icon">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>&lt;/span>
 &lt;/div>
 &lt;div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 break-words">
 &lt;div class="flex justify-between">
-&lt;h2 class="mt-0">
-2023年8月
-&lt;/h2>
+&lt;h2 class="mt-0">2023年8月&lt;/h2>
 &lt;/div>
 &lt;div class="mb-6">
 学生の頃にnoteで記事を投稿していました。しかし気に入らなかったのでこのブログを作成しました。
@@ -40,19 +45,17 @@ style="text-decoration-line: none !important;" href="#%E3%83%9E%E3%82%A4%E3%83%A
 &lt;/li>
 &lt;li>
 &lt;div class="flex flex-start">
-&lt;div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
-&lt;/span>
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
+&lt;span class="relative block icon">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>&lt;/span>
 &lt;/div>
 &lt;div class="block p-6 rounded-lg shadow-2xl min-w-full ml-6 mb-10 break-words">
 &lt;div class="flex justify-between">
-&lt;h2 class="mt-0">
-2025年2月
-&lt;/h2>
+&lt;h2 class="mt-0">2025年2月&lt;/h2>
 &lt;h3 class="">
-&lt;span class="flex" style="cursor: pointer;">
-&lt;span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+&lt;span class="flex cursor-pointer">
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
 Search Console Insights
 &lt;/span>
 &lt;/span>
@@ -70,29 +73,32 @@ Google検索で1か月間のクリック数が100回を超えました🎉
 &lt;/ol>
 &lt;hr>
 &lt;h2 class="relative group">表記法
-&lt;div id="%E8%A1%A8%E8%A8%98%E6%B3%95" class="anchor">&lt;/div>
+&lt;div id="表記法" class="anchor">&lt;/div>
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%E8%A1%A8%E8%A8%98%E6%B3%95" aria-label="アンカー">#&lt;/a>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#%e8%a1%a8%e8%a8%98%e6%b3%95" aria-label="アンカー">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;p>読みやすさを重視して&lt;a href="https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/kokugo_kadai/iinkai_45/pdf/93390601_09.pdf" target="_blank">外来語（カタカナ）表記ガイドライン 第3版&lt;/a>の基準を採用しています。&lt;/p></description></item><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br>
+&lt;p>読みやすさを重視して&lt;a
+href="https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/kokugo_kadai/iinkai_45/pdf/93390601_09.pdf"
+target="_blank"
+>外来語（カタカナ）表記ガイドライン 第3版&lt;/a>の基準を採用しています。&lt;/p></description></item><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br>
 &lt;div
 class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
 >
 &lt;span
 class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
 >
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-&lt;path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/>&lt;/svg>
-&lt;/span>
+&lt;span class="relative block icon">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+&lt;path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/>&lt;/svg>&lt;/span>
 &lt;/span>
 &lt;span
 class="dark:text-neutral-300"
 >昔、HatenaBlogで投稿した記事を更新したものです。&lt;br>
-&lt;a href="https://skbull.hatenablog.jp/entry/2020/11/12/010709/" target="_blank">win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a>&lt;/span>
+&lt;a
+href="https://skbull.hatenablog.jp/entry/2020/11/12/010709/"
+target="_blank"
+>win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a>&lt;/span>
 &lt;/div>
 &lt;p>倫理メディア版の吸血殲鬼ヴェドゴニア（ver1.2）を&lt;code>フルインストール&lt;/code>でインストールしプレイしたのですが、ムービーシーンで音だけ流れて
 &lt;code>圧縮解除プログラム 'vids:IV50'が見つからないため、ビデオを利用できません。&lt;/code>
