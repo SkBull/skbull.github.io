@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vids:IV50 on すきぶる - SkBull Blog</title><link>https://skbull.page/tags/vidsiv50/</link><description>Recent content in vids:IV50 on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2025 SkBull</copyright><lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://skbull.page/tags/vidsiv50/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vids:IV50 on すきぶる - SkBull Blog</title><link>https://skbull.page/tags/vidsiv50/</link><description>Recent content in vids:IV50 on すきぶる - SkBull Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&amp;copy; 2023 - 2025 SkBull</copyright><lastBuildDate>Wed, 09 Aug 2023 14:52:20 +0000</lastBuildDate><atom:link href="https://skbull.page/tags/vidsiv50/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows 10、11で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法</title><link>https://skbull.page/posts/win10_iv32_iv50_pcgame/</link><pubDate>Wed, 09 Aug 2023 14:52:20 +0000</pubDate><guid>https://skbull.page/posts/win10_iv32_iv50_pcgame/</guid><description>&lt;br&gt;
 &lt;div
 class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
+&gt;
 &lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-&lt;path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/>&lt;/svg>&lt;/span>
-&lt;/span>
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;
+&lt;path fill="currentColor" d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/&gt;&lt;/svg&gt;&lt;/span&gt;
+&lt;/span&gt;
 &lt;span
 class="dark:text-neutral-300"
->昔、HatenaBlogで投稿した記事を更新したものです。&lt;br>
+&gt;昔、HatenaBlogで投稿した記事を更新したものです。&lt;br&gt;
 &lt;a
 href="https://skbull.hatenablog.jp/entry/2020/11/12/010709/"
 target="_blank"
->win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a>&lt;/span>
-&lt;/div>
-&lt;p>倫理メディア版の吸血殲鬼ヴェドゴニア（ver1.2）を&lt;code>フルインストール&lt;/code>でインストールしプレイしたのですが、ムービーシーンで音だけ流れて
-&lt;code>圧縮解除プログラム 'vids:IV50'が見つからないため、ビデオを利用できません。&lt;/code>
-と表示されました。(win10ならvids:IV32)&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.webp"/></item></channel></rss>
+&gt;win10で「吸血殲鬼ヴェドゴニア」のムービーが流れないときの対処法&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;倫理メディア版の吸血殲鬼ヴェドゴニア（ver1.2）を&lt;code&gt;フルインストール&lt;/code&gt;でインストールしプレイしたのですが、ムービーシーンで音だけ流れて
+&lt;code&gt;圧縮解除プログラム 'vids:IV50'が見つからないため、ビデオを利用できません。&lt;/code&gt;
+と表示されました。(win10ならvids:IV32)&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://skbull.page/posts/win10_iv32_iv50_pcgame/featured.webp"/></item></channel></rss>
